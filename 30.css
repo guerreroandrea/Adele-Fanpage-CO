@@ -1,0 +1,770 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header_top_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 6vh;
+    background-color: #294a51;
+}
+
+@font-face {
+    font-family: theseasons;
+    src: url(./fonts/the_seasons_bold-webfont.ttf);
+}
+
+.logo{
+    font-family: theseasons;
+    font-size: 20px;
+    color: #f9b701;
+    text-decoration: none;
+    width: 10%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-container-30{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: theseasons;
+}
+
+.link__about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 18%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+.link__discography{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 30%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+.link__awards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 18%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+.link__30{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 9%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+.link__contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 18%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+@font-face {
+    font-family: Benedict;
+    src: url(./fonts/Benedict.ttf);
+}
+
+.img-sectiontwo{
+    width: 100%;
+}
+
+.title-sectionfour{
+    position: absolute;
+    top: 200px;
+    right: 15%;
+    font-family: Benedict;
+    color: #f9b701;
+    font-size: 250px;
+}
+.titlesection_four{
+    position: absolute;
+    top: 425px;
+    right: 12%;
+    font-family: theseasons;
+    color: whitesmoke;
+    font-size: 80px;
+}
+
+.titlesection4{
+    position: absolute;
+    top: 540px;
+    right: 14%;
+    font-family: Benedict;
+    color: #f9b701;
+    font-size: 60px;
+}
+
+.subtitle-sectionfour{
+    font-family: theseasons;
+    font-size: 70px;
+    position:absolute;
+    top: 700px;
+    right: 15%;
+    color: whitesmoke;
+}
+
+.text_easy_on_me{
+    font-family: Backtalk;
+    color: whitesmoke;
+    font-size: 25px;
+    line-height: 35px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.text_omg{
+    font-family: Backtalk;
+    color: whitesmoke;
+    font-size: 25px;
+    line-height: 35px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+body{
+    background-image: url(./Img/Adelewebsite.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+div.easy_on_me{
+    width: 90%;
+    margin: 90px auto;
+    padding: 15px;
+}
+
+@font-face {
+    font-family: Backtalk;
+    src: url(./fonts/BacktalkSans-BTN_5563.ttf);
+}
+
+div.oh_my_god{
+    width: 90%;
+    margin: 90px auto;
+    padding: 15px;
+}
+
+.more{
+    padding: 15px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    font-family: theseasons;
+}
+
+img{
+    width: 70%;
+}
+
+.magazines{
+    margin-top: 100px;
+    display: inline-flex;
+    flex-direction:row
+}
+
+.magazine_1{
+    margin-left: 90px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    background-color: #294a51;
+    position: absolute;
+}
+
+.text-footer{
+    font-family: Benedict;
+    font-size: 16px;
+    color: #f9b701;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.social-media{
+    margin-bottom: 11px;
+    justify-content: space-around;
+    width: 80px;
+    height: 50px;
+}
+.social_twitter{
+    color: #f9b701;
+    align-items: center;
+}
+
+.social_instagram{
+    color: #f9b701;
+    align-items: center;
+}
+
+.social_facebook{
+    color: #f9b701;
+    align-items: center;
+}
+
+.social_youtube{
+    color: #f9b701;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px){
+    body{
+        background-image: url(./Img/Adelewebsite.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .img-sectiontwo{
+        width: 100%;
+    }
+
+    .header_top_bar{
+        display: flex;
+        padding-left: 10px;
+        align-items: center;
+        width: 100%;
+        height: 6vh;
+        background-color: #294a51;
+    }
+    
+    .logo{
+        font-family: theseasons;
+        font-size: 20px;
+        color: #f9b701;
+        text-decoration: none;
+        width: 10%;
+        text-align: center;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .nav-container-30{
+        width: 55%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-family: theseasons;
+        padding: 50px;
+    }
+    
+    .link__about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 12%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link__discography{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 22%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link__awards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 18%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link__30{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 9%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link__contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 18%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .title-sectionfour{
+        position: absolute;
+        top: 90px;
+        right: 15%;
+        font-family: Benedict;
+        color: #f9b701;
+        font-size: 200px;
+    }
+    .titlesection_four{
+        position: absolute;
+        top: 250px;
+        right: 9%;
+        font-family: theseasons;
+        color: whitesmoke;
+        font-size: 60px;
+    }
+    
+    .titlesection4{
+        position: absolute;
+        top: 350px;
+        right: 10%;
+        font-family: Benedict;
+        color: #f9b701;
+        font-size: 60px;
+    }
+    
+    .subtitle-sectionfour{
+        font-family: theseasons;
+        font-size: 50px;
+        position:absolute;
+        top: 490px;
+        right: 15%;
+        color: whitesmoke;
+    }
+    
+    .text_easy_on_me{
+        font-family: Backtalk;
+        color: whitesmoke;
+        font-size: 25px;
+        line-height: 35px;
+        margin-top: 50px;
+        margin-bottom: 5px;
+    }
+    
+    .text_omg{
+        font-family: Backtalk;
+        color: whitesmoke;
+        font-size: 25px;
+        line-height: 35px;
+        margin-top: 50px;
+        margin-bottom: 5px;
+    }
+
+    .magazine_1{
+        margin-left: 50px;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    body{
+        background-image: url(./Img/Adelewebsite.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .img-sectiontwo{
+        width: 100%;
+    }
+
+    .header_top_bar{
+        display: flex;
+        padding-left: 9px;
+        align-items: center;
+        width: 100%;
+        height: 6vh;
+        background-color: #294a51;
+    }
+    
+    .logo{
+        font-family: theseasons;
+        font-size: 20px;
+        color: #f9b701;
+        text-decoration: none;
+        width: 10%;
+        text-align: center;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .nav-container-30{
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-family: theseasons;
+        padding: 20px;
+    }
+    
+    .link__about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 12%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link__discography{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 22%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link__awards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 18%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link__30{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 9%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link__contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 18%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .title-sectionfour{
+        position: absolute;
+        top: 60px;
+        right: 10%;
+        font-family: Benedict;
+        color: #f9b701;
+        font-size: 180px;
+    }
+    .titlesection_four{
+        position: absolute;
+        top: 230px;
+        right: 6%;
+        font-family: theseasons;
+        color: whitesmoke;
+        font-size: 50px;
+    }
+    
+    .titlesection4{
+        position: absolute;
+        top: 300px;
+        right: 9%;
+        font-family: Benedict;
+        color: #f9b701;
+        font-size: 50px;
+    }
+    
+    .subtitle-sectionfour{
+        font-family: theseasons;
+        font-size: 35px;
+        position:absolute;
+        top: 380px;
+        right: 14%;
+        color: whitesmoke;
+    }
+    
+    .text_easy_on_me{
+        font-family: Backtalk;
+        color: whitesmoke;
+        font-size: 25px;
+        line-height: 35px;
+        margin-top: 50px;
+        margin-bottom: 5px;
+    }
+    
+    .text_omg{
+        font-family: Backtalk;
+        color: whitesmoke;
+        font-size: 25px;
+        line-height: 35px;
+        margin-top: 50px;
+        margin-bottom: 5px;
+    }
+
+    .magazine_1{
+        margin-left: 50px;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    body{
+        background-image: url(./Img/Adelewebsite.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .img-sectiontwo{
+        width: 100%;
+    }
+
+    .header_top_bar{
+        display: flex;
+        padding-left: 9px;
+        align-items: center;
+        width: 100%;
+        height: 6vh;
+        background-color: #294a51;
+        font-size: 14px;
+    }
+    
+    .logo{
+        font-family: theseasons;
+        font-size: 20px;
+        color: #f9b701;
+        text-decoration: none;
+        width: 10%;
+        text-align: center;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .nav-container-30{
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-family: theseasons;
+        padding: 20px;
+    }
+    
+    .link__about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 20%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link__discography{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 38%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link__awards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 22%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link__30{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 10%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link__contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 22%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .title-sectionfour{
+        position: absolute;
+        top: 60px;
+        right: 10%;
+        font-family: Benedict;
+        color: #f9b701;
+        font-size: 110px;
+    }
+    .titlesection_four{
+        position: absolute;
+        top: 159px;
+        right: 6%;
+        font-family: theseasons;
+        color: whitesmoke;
+        font-size: 30px;
+    }
+    
+    .titlesection4{
+        position: absolute;
+        top: 200px;
+        right: 4%;
+        font-family: Benedict;
+        color: #f9b701;
+        font-size: 35px;
+    }
+    
+    .subtitle-sectionfour{
+        font-family: theseasons;
+        font-size: 25px;
+        position:absolute;
+        top: 260px;
+        right: 14%;
+        color: whitesmoke;
+    }
+    
+    .text_easy_on_me{
+        font-family: Backtalk;
+        color: whitesmoke;
+        font-size: 25px;
+        line-height: 35px;
+        margin-top: 50px;
+        margin-bottom: 5px;
+    }
+    
+    .text_omg{
+        font-family: Backtalk;
+        color: whitesmoke;
+        font-size: 25px;
+        line-height: 35px;
+        margin-top: 50px;
+        margin-bottom: 5px;
+    }
+
+    .magazine_1{
+        margin-left: 50px;
+        margin-bottom: 60px;
+    }
+
+    iframe{
+        width: 90%;
+    }
+}

@@ -1,0 +1,773 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./Img/Adelewebsite.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header-topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 6vh;
+    background-color: #294a51;
+}
+
+@font-face {
+    font-family: theseasons;
+    src: url(./fonts/the_seasons_bold-webfont.ttf);
+}
+.header-logo{
+    font-family: theseasons;
+    font-size: 20px;
+    color: #f9b701;
+    text-decoration: none;
+    width: 10%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-container{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: theseasons;
+}
+
+.link_about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 18%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+.link_discography{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 30%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+.link_awards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 18%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+.link_30{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 9%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+.link_contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 18%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+.img-sectionhome1{
+    width: 100%;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Benedict;
+    src: url(./fonts/Benedict.ttf);
+}
+
+.title-sectionh0me1{
+    position: absolute;
+    top: 150px;
+    right: 8%;
+    font-family: theseasons;
+    color: #f9b701;
+    font-size: 230px;
+}
+
+.subtitle-sectionhome1{
+    font-family: theseasons;
+    font-size: 70px;
+    position:absolute;
+    top: 105%;
+    right: 15%;
+    color: #f9b701;
+}
+
+.btn_home1{
+    position: absolute;
+    right: 200px;
+    bottom: 35px;
+    background-color: whitesmoke;
+    border-radius: 70px;
+    color: black;
+    cursor: pointer;
+    font-family: theseasons;
+    font-size: 50px;
+    font-weight: 500px;
+    line-height: 100px;
+    list-style: none;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    touch-action: manipulation;
+}
+
+.adele_phrase{
+    color: whitesmoke;
+    align-self: center;
+    font-size: 80px;
+    margin: 50px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    background-color: #294a51;
+    position: relative;
+    margin-top: -5px;
+}
+
+.text-footer{
+    font-family: Benedict;
+    font-size: 16px;
+    color: #f9b701;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-media{
+    margin-bottom: 11px;
+    justify-content: space-around;
+    width: 80px;
+    height: 50px;
+}
+.social_twitter{
+    color: #f9b701;
+    align-items: center;
+}
+
+.social_instagram{
+    color: #f9b701;
+    align-items: center;
+}
+
+.social_facebook{
+    color: #f9b701;
+    align-items: center;
+}
+
+.social_youtube{
+    color: #f9b701;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .header-topbar{
+        display: flex;
+        padding-left: 10px;
+        align-items: center;
+        width: 100%;
+        height: 6vh;
+        background-color: #294a51;
+    }
+
+    body{
+        background-image: url(./Img/Adelewebsite.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .nav-container{
+        width: 45%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-family: theseasons;
+        padding: 50px;
+    }
+
+    .img-sectionhome1{
+        width: 100%;
+    }
+    
+    .link_about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 15%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_discography{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 27%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_awards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 18%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_30{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 9%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 18%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+
+    .title-sectionh0me1{
+        position: absolute;
+        top: 120px;
+        right: 5%;
+        font-family: theseasons;
+        color: #f9b701;
+        font-size: 180px;
+    }
+    
+    .btn_home1{
+        position: absolute;
+        right: 15%;
+        bottom: 32%;
+        background-color: whitesmoke;
+        border-radius: 70px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 30px;
+        font-weight: 100px;
+        line-height: 50px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+    }
+
+    .subtitle-sectionhome1{
+        font-family: theseasons;
+        font-size: 50px;
+        position:absolute;
+        top: 80%;
+        right: 15%;
+        color: #f9b701;
+    }
+
+    .adele_phrase{
+        color: whitesmoke;
+        align-self: center;
+        font-size: 80px;
+        margin: 50px;
+    }
+
+    .footer-container{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 8vh;
+        background-color: #294a51;
+        position: absolute;
+    }
+    
+    .text-footer{
+        font-family: Benedict;
+        font-size: 16px;
+        color: #f9b701;
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+    .social-media{
+        margin-bottom: 11px;
+        justify-content: space-around;
+        width: 80px;
+        height: 50px;
+    }
+    .social_twitter{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_instagram{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_facebook{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_youtube{
+        color: #f9b701;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-topbar{
+        display: flex;
+        padding-left: 9px;
+        align-items: center;
+        width: 100%;
+        height: 10vh;
+        background-color: #294a51;
+    }
+
+    body{
+        background-image: url(./Img/Adelewebsite.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .nav-container{
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-family: theseasons;
+        padding: 20px;
+    }
+
+    .img-sectionhome1{
+        width: 100%;
+    }
+    
+    .link_about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 16%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_discography{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 28%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_awards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 18%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_30{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 9%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 18%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+
+    .title-sectionh0me1{
+        position: absolute;
+        top: 70px;
+        right: 3%;
+        font-family: theseasons;
+        color: #f9b701;
+        font-size: 140px;
+    }
+    
+    .btn_home1{
+        position: absolute;
+        right: 10%;
+        bottom: 46%;
+        background-color: whitesmoke;
+        border-radius: 70px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 30px;
+        font-weight: 100px;
+        line-height: 50px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+    }
+
+    .subtitle-sectionhome1{
+        font-family: theseasons;
+        font-size: 30px;
+        position:absolute;
+        top: 65%;
+        right: 18%;
+        color: #f9b701;
+    }
+
+    .adele_phrase{
+        color: whitesmoke;
+        align-self: center;
+        font-size: 80px;
+        margin: 50px;
+    }
+
+    .footer-container{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 10vh;
+        background-color: #294a51;
+        position: absolute;
+    }
+    
+    .text-footer{
+        font-family: Benedict;
+        font-size: 16px;
+        color: #f9b701;
+        text-align: center;
+    }
+    
+    .social-media{
+        margin-bottom: 11px;
+        justify-content: space-around;
+        width: 80px;
+        height: 50px;
+    }
+    .social_twitter{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_instagram{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_facebook{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_youtube{
+        color: #f9b701;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header-topbar{
+        display: flex;
+        padding-left: 9px;
+        align-items: center;
+        width: 100%;
+        height: 6vh;
+        background-color: #294a51;
+    }
+
+    body{
+        background-image: url(./Img/Adelewebsite.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .nav-container{
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-family: theseasons;
+        padding: 20px;
+    }
+
+    .img-sectionhome1{
+        width: 100%;
+    }
+    
+    .link_about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 20%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_discography{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 38%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_awards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 22%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_30{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 10%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 22%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+
+    .title-sectionh0me1{
+        position: absolute;
+        top: 50px;
+        right: 3%;
+        font-family: theseasons;
+        color: #f9b701;
+        font-size: 90px;
+    }
+    
+    .btn_home1{
+        position: absolute;
+        right: 8%;
+        bottom: 66%;
+        background-color: whitesmoke;
+        border-radius: 70px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 20px;
+        font-weight: 100px;
+        line-height: 20px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+    }
+
+    .subtitle-sectionhome1{
+        font-family: theseasons;
+        font-size: 30px;
+        position:absolute;
+        top: 39%;
+        right: 13%;
+        color: #f9b701;
+    }
+
+    .adele_phrase{
+        color: whitesmoke;
+        align-self: center;
+        font-size: 70px;
+        margin: 50px;
+    }
+
+    .footer-container{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 10vh;
+        background-color: #294a51;
+        position: absolute;
+    }
+    
+    .text-footer{
+        font-family: Benedict;
+        font-size: 16px;
+        color: #f9b701;
+        text-align: center;
+    }
+    
+    .social-media{
+        margin-bottom: 11px;
+        justify-content: space-around;
+        width: 80px;
+        height: 50px;
+    }
+    .social_twitter{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_instagram{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_facebook{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_youtube{
+        color: #f9b701;
+        align-items: center;
+    }
+}
+
+
+
+

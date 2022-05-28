@@ -1,0 +1,903 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header-topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 6vh;
+    background-color: #294a51;
+}
+
+@font-face {
+    font-family: theseasons;
+    src: url(./fonts/the_seasons_bold-webfont.ttf);
+}
+.header-logo{
+    font-family: theseasons;
+    font-size: 20px;
+    color: #f9b701;
+    text-decoration: none;
+    width: 10%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+.nav-container{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: theseasons;
+}
+
+.link_about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 18%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+.link_discography{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 30%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+.link_awards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 18%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+.link_30{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 9%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+.link_contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 18%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+@font-face {
+    font-family: Benedict;
+    src: url(./fonts/Benedict.ttf);
+}
+
+.img-section0ne{
+    width: 100%;
+}
+.title-section0ne{
+    font-family: Benedict;
+    color: whitesmoke;
+    font-size: 180px;
+    position: absolute;
+    top: 200px;
+    right: 10%;
+}
+
+.title-sectionone{
+    position: absolute;
+    top: 380px;
+    right: 8%;
+    font-family: theseasons;
+    color: #f9b701;
+    font-size: 100px;
+}
+
+.subtitle-section0ne{
+    font-family: theseasons;
+    font-size: 70px;
+    position:absolute;
+    top: 106%;
+    right: 20%;
+    color: whitesmoke;
+}
+
+body{
+    background-image: url(./Img/Adelewebsite.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+@font-face {
+    font-family: Backtalk;
+    src: url(./fonts/BacktalkSans-BTN_5563.ttf);
+}
+
+.textsection-one{
+    font-family: Backtalk;
+    font-size: 19px;
+    color: whitesmoke;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.gallery{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    width: 100%;
+}
+
+.pic-1{
+    content: "";
+    clear: both;
+    display: table;
+    margin-top: 25px;
+}
+
+.pic-2{
+    content: "";
+    clear: both;
+    display: table;
+    margin-top: 25px;
+}
+
+.pic-3{
+    content: "";
+    clear: both;
+    display: table;
+    margin-top: 25px;
+}
+
+.pic-4{
+    content: "";
+    clear: both;
+    display: table;
+    margin-top:25px;
+}
+
+.text2{
+    font-family: Backtalk;
+    font-size: 19px;
+    color: whitesmoke;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+}
+
+p{
+    line-height: 25px;
+}
+
+.hometown-glory{
+    width: 100%;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 180px;
+    margin-bottom: 120px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    background-color: #294a51;
+    position: absolute;
+}
+
+.text-footer{
+    font-family: Benedict;
+    font-size: 16px;
+    color: #f9b701;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.social-media{
+    margin-bottom: 11px;
+    justify-content: space-around;
+    width: 80px;
+    height: 50px;
+}
+.social_twitter{
+    color: #f9b701;
+    align-items: center;
+}
+
+.social_instagram{
+    color: #f9b701;
+    align-items: center;
+}
+
+.social_facebook{
+    color: #f9b701;
+    align-items: center;
+}
+
+.social_youtube{
+    color: #f9b701;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    body{
+        background-image: url(./Img/Adelewebsite.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    .img-section0ne{
+        width: 117.6%;
+    }
+
+    .header-topbar{
+        display: flex;
+        position: fixed;
+        padding-left: 10px;
+        align-items: center;
+        width: 100%;
+        height: 6vh;
+        background-color: #294a51;
+    }
+ 
+    .nav-container{
+        width: 55%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-family: theseasons;
+        padding: 50px;
+    }
+    
+    .link_about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 12%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_discography{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 22%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_awards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 18%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_30{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 9%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 18%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .title-section0ne{
+        font-family: Benedict;
+        color: whitesmoke;
+        font-size: 160px;
+        position: absolute;
+        top: 130px;
+        right: 1%;
+    }
+    
+    .title-sectionone{
+        position: absolute;
+        top: 280px;
+        right: -5%;
+        font-family: theseasons;
+        color: #f9b701;
+        font-size: 160px;
+    }
+    
+    .subtitle-section0ne{
+        font-family: theseasons;
+        font-size: 50px;
+        position:absolute;
+        top: 85%;
+        right: 1%;
+        color: whitesmoke;
+    }
+    
+    .textsection-one{
+        font-family: Backtalk;
+        font-size: 25px;
+        color: whitesmoke;
+        margin-left: 200px;
+        padding-right: -200px;
+    }
+    
+    .gallery{
+        display: grid;
+        grid-template-columns: 301px 301px 301px 301px;
+        align-items: center;
+    }
+
+    .text2{
+        font-family: Backtalk;
+        font-size: 25px;
+        color: whitesmoke;
+        margin-left: 200px;
+        padding-right: -200px;
+    }
+
+    p{
+        line-height: 35px;
+    }
+    
+    .footer-container{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 8vh;
+        background-color: #294a51;
+        position: fixed;
+        bottom: 0;
+    }
+    
+    .text-footer{
+        font-family: Benedict;
+        font-size: 16px;
+        color: #f9b701;
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+    .social-media{
+        margin-bottom: 11px;
+        justify-content: space-around;
+        width: 80px;
+        height: 50px;
+    }
+    .social_twitter{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_instagram{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_facebook{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_youtube{
+        color: #f9b701;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        background-image: url(./Img/Adelewebsite.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    .img-section0ne{
+        width: 113%;
+    }
+
+    .header-topbar{
+        display: flex;
+        padding-left: -90px;
+        align-items: center;
+        width: 100%;
+        height: 6vh;
+        position: fixed;
+        background-color: #294a51;
+    }
+ 
+    .nav-container{
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-family: theseasons;
+        padding: 5px;
+    }
+    
+    .link_about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 15%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_discography{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 27%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_awards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 18%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_30{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 9%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 18%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .title-section0ne{
+        font-family: Benedict;
+        color: whitesmoke;
+        font-size: 120px;
+        position: absolute;
+        top: 120px;
+        right: 1%;
+    }
+    
+    .title-sectionone{
+        position: absolute;
+        top: 210px;
+        right: -10%;
+        font-family: theseasons;
+        color: #f9b701;
+        font-size: 160px;
+    }
+    
+    .subtitle-section0ne{
+        font-family: theseasons;
+        font-size: 30px;
+        position:absolute;
+        top: 67%;
+        right: 8%;
+        color: whitesmoke;
+    }
+
+    .textsection-one{
+        font-family: Backtalk;
+        font-size: 20px;
+        color: whitesmoke;
+        margin-left: 50px;
+        margin-right: -50px;
+    }
+    
+    .gallery{
+        display: grid;
+        grid-template-columns: 217px 217px 217px 217px;
+        align-items: center;
+    }
+
+    .text2{
+        font-family: Backtalk;
+        font-size: 20px;
+        color: whitesmoke;
+        margin-left: 50px;
+        margin-right: -50px;
+    }
+
+    p{
+        line-height: 25px;
+    }
+    
+    .hometown-glory{
+        width: 100%;
+        position: relative;
+        margin-top: 80px;
+        margin-left: 100px;
+        margin-bottom: 120px;
+    }
+    
+    .footer-container{
+        position: fixed;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 8vh;
+        background-color: #294a51;
+        bottom: 0;
+    }
+    
+    .text-footer{
+        font-family: Benedict;
+        font-size: 16px;
+        color: #f9b701;
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+    .social-media{
+        margin-bottom: 11px;
+        justify-content: space-around;
+        width: 80px;
+        height: 50px;
+    }
+
+    .social_twitter{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_instagram{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_facebook{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_youtube{
+        color: #f9b701;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body{
+        background-image: url(./Img/Adelewebsite.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    .img-section0ne{
+        width: 100%;
+    }
+
+    .header-logo{
+        font-family: theseasons;
+        font-size: 20px;
+        color: #f9b701;
+        text-decoration: none;
+        width: 10%;
+        text-align: center;
+    }
+
+    .header-topbar{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 6vh;
+        position: fixed;
+        background-color: #294a51;
+    }
+ 
+    .nav-container{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-family: theseasons;
+        padding: -17px;
+        font-size: 14px;
+    }
+    
+    .link_about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 16%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_discography{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 36%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_awards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 25%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_30{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 15%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 27%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .title-section0ne{
+        font-family: Benedict;
+        color: whitesmoke;
+        font-size: 80px;
+        position: absolute;
+        top: 50px;
+        right: 12%;
+    }
+    
+    .title-sectionone{
+        position: absolute;
+        top: 120px;
+        right: 5%;
+        font-family: theseasons;
+        color: #f9b701;
+        font-size: 80px;
+    }
+    
+    .subtitle-section0ne{
+        font-family: theseasons;
+        font-size: 20px;
+        position:absolute;
+        top: 35%;
+        right: 20%;
+        color: whitesmoke;
+    }
+
+    .textsection-one{
+        font-family: Backtalk;
+        font-size: 18px;
+        color: whitesmoke;
+        margin-left: 40px;
+        margin-right:40px;
+    }
+    
+    .gallery{
+        display: grid;
+        grid-template-columns: 120px 120px 120px 120px;
+        align-items: center;
+    }
+
+    .text2{
+        font-family: Backtalk;
+        font-size: 18px;
+        color: whitesmoke;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+
+    p{
+        line-height: 35px;
+    }
+    
+    .hometown-glory{
+        width: 100%;
+        position: relative;
+        margin-top: 80px;
+        margin-left: 0px;
+        margin-bottom: 160px;
+    }
+
+    iframe{
+        margin: 0;
+        padding: 0px;
+        width: 100%;
+    }
+    
+    .footer-container{
+        position: fixed;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 8vh;
+        background-color: #294a51;
+        bottom: 0;
+    }
+    
+    .text-footer{
+        font-family: Benedict;
+        font-size: 15px;
+        color: #f9b701;
+        text-align: center;
+        margin-top: 5px;
+        margin-left: -8px;
+    }
+    
+    .social-media{
+        margin-bottom: 11px;
+        justify-content: space-around;
+        width: -190px;
+        height: -100px;
+    }
+
+    .social_twitter{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_instagram{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_facebook{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_youtube{
+        color: #f9b701;
+        align-items: center;
+    }
+}
+

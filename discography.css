@@ -1,0 +1,1331 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header_top_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 6vh;
+    background-color: #294a51;
+}
+
+@font-face {
+    font-family: theseasons;
+    src: url(./fonts/the_seasons_bold-webfont.ttf);
+}
+
+.logo{
+    font-family: theseasons;
+    font-size: 20px;
+    color: #f9b701;
+    text-decoration: none;
+    width: 10%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-container-disc{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: theseasons;
+}
+
+.link-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 18%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+.link-discography{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 30%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+.link-awards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 18%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+.link-30{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 9%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+.link-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 18%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+@font-face {
+    font-family: Benedict;
+    src: url(./fonts/Benedict.ttf);
+}
+
+.img-sectiontwo{
+    width: 100%;
+}
+
+.title-sectiontwo{
+    position: absolute;
+    top: 380px;
+    right: 6%;
+    font-family: Benedict;
+    color: whitesmoke;
+    font-size: 200px;
+}
+
+.subtitle-sectiontwo{
+    font-family: theseasons;
+    font-size: 70px;
+    position:absolute;
+    top: 100%;
+    right: 15%;
+    color: #f9b701;
+}
+
+body{
+    background-image: url(./Img/Adelewebsite.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+img{
+    width: 100%
+}
+
+.albums{
+    margin-left: 200px;
+    margin-top: 330px;
+    align-content: center;
+    width:400px;
+    height:400px;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-row: auto auto;
+    grid-column-gap: 480px;
+}
+
+h2{
+    padding:20px;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:  40px;
+}
+
+@font-face {
+    font-family: Hillshort;
+    src: url(./fonts/Hillshort.otf);
+}
+
+.title-19{
+    font-family: Hillshort;
+    color: #f9b701;
+    font-size: 90px;
+    position: absolute;
+    left: 140px;
+    top: 920px;
+}
+
+.title-21{
+    font-family: Hillshort;
+    color: #f9b701;
+    font-size: 90px;
+    position: absolute;
+    right: 510px;
+    top: 920px;
+}
+
+.title-25{
+    font-family: Hillshort;
+    color: #f9b701;
+    font-size: 90px;
+    position: absolute;
+    left: 110px;
+    top: 1350px;
+}
+
+.title-30{
+    font-family: Hillshort;
+    color: #f9b701;
+    font-size: 90px;
+    position: absolute;
+    right: 500px;
+    top: 1350px;
+}
+
+.button_19{
+  background-color: whitesmoke;
+  border-radius: 20px;
+  color: black;
+  cursor: pointer;
+  font-family: theseasons;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  touch-action: manipulation;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  left: 80px;
+  position: relative;
+}
+
+.button_21{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    font-family: theseasons;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    touch-action: manipulation;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    left: 80px;
+    position: relative;
+}
+
+.button_25{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    font-family: theseasons;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    touch-action: manipulation;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    left: 80px;
+    position: relative;
+}
+
+.button_30{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    font-family: theseasons;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    touch-action: manipulation;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    left: 80px;
+    position: relative;
+}
+
+.videos{
+    text-align: center;
+    margin-top: 250px;
+    padding: 0px 0px;
+    display:inline-flex;
+}
+
+iframe{
+    margin: 0;
+    padding: 5px;
+}
+
+@font-face {
+    font-family: Backtalk;
+    src: url(./fonts/BacktalkSans-BTN_5563.ttf);
+}
+
+.text_2{
+    text-align: center;
+    margin: 40px;
+    font-family: Backtalk;
+    font-size: 19px;
+    color: whitesmoke;
+    line-height: 30px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    background-color: #294a51;
+    position: absolute;
+}
+
+.text-footer{
+    font-family: Benedict;
+    font-size: 16px;
+    color: #f9b701;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.social-media{
+    margin-bottom: 11px;
+    justify-content: space-around;
+    width: 80px;
+    height: 50px;
+}
+
+.social_twitter{
+    color: #f9b701;
+    align-items: center;
+}
+
+.social_instagram{
+    color: #f9b701;
+    align-items: center;
+}
+
+.social_facebook{
+    color: #f9b701;
+    align-items: center;
+}
+
+.social_youtube{
+    color: #f9b701;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    body{
+        background-image: url(./Img/Adelewebsite.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .img-sectiontwo{
+        width: 100%;
+    }
+
+    .header_top_bar{
+        display: flex;
+        padding-left: 10px;
+        align-items: center;
+        width: 100%;
+        height: 6vh;
+        background-color: #294a51;
+    }
+ 
+    .nav-container-disc{
+        width: 55%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-family: theseasons;
+        padding: 50px;
+    }
+    
+    .link-about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 12%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link-discography{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 22%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link-awards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 18%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link-30{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 9%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link-contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 18%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+
+    .title-sectiontwo{
+        position: absolute;
+        top: 190px;
+        right: 5%;
+        font-family: Benedict;
+        color: whitesmoke;
+        font-size: 150px;
+    }
+    
+    .subtitle-sectiontwo{
+        font-family: theseasons;
+        font-size: 50px;
+        position:absolute;
+        top: 74%;
+        right: 13%;
+        color: #f9b701;
+    }
+
+    img{
+        width: 100%;
+    }
+    
+    .albums{
+        margin-left: 70px;
+        margin-top: 300px;
+        align-content: center;
+        width:400px;
+        height:400px;
+        display: grid;
+        grid-template-columns: 250px 250px;
+        grid-row: auto auto;
+        grid-column-gap: 380px;
+    }
+    
+    h2{
+        padding:20px;
+        border-radius:10px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:  40px;
+    }
+
+    .title-19{
+        font-family: Hillshort;
+        color: #f9b701;
+        font-size: 100px;
+        position: absolute;
+        left: 30px;
+        top: 660px;
+    }
+    
+    .title-21{
+        font-family: Hillshort;
+        color: #f9b701;
+        font-size: 100px;
+        position: absolute;
+        right: 260px;
+        top: 660px;
+    }
+    
+    .title-25{
+        font-family: Hillshort;
+        color: #f9b701;
+        font-size: 100px;
+        position: absolute;
+        left: 25px;
+        top: 1030px;
+    }
+    
+    .title-30{
+        font-family: Hillshort;
+        color: #f9b701;
+        font-size: 100px;
+        position: absolute;
+        right: 250px;
+        top: 1030px;
+    }
+    
+    .button_19{
+      background-color: whitesmoke;
+      border-radius: 20px;
+      color: black;
+      cursor: pointer;
+      font-family: theseasons;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 20px;
+      list-style: none;
+      padding: 10px 12px;
+      text-align: center;
+      transition: all 200ms;
+      touch-action: manipulation;
+      margin-top: 20px;
+      margin-bottom: 80px;
+      left: 55px;
+      position: relative;
+    }
+    
+    .button_21{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+        margin-top: 20px;
+        margin-bottom: 80px;
+        left: 55px;
+        position: relative;
+    }
+    
+    .button_25{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+        margin-top: 20px;
+        margin-bottom: 80px;
+        left: 55px;
+        position: relative;
+    }
+    
+    .button_30{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+        margin-top: 20px;
+        margin-bottom: 80px;
+        left: 55px;
+        position: relative;
+    }
+    
+    .videos{
+        text-align: center;
+        margin-top: 250px;
+        display:inline-flex;
+    }
+
+    iframe{
+        margin: 0;
+        padding: 0px;
+        width: 100%;
+    }
+    
+    .text_2{
+        text-align: center;
+        margin: 40px;
+        font-family: Backtalk;
+        font-size: 19px;
+        color: whitesmoke;
+        line-height: 30px;
+    }
+    
+    .footer-container{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 8vh;
+        background-color: #294a51;
+        position: absolute;
+    }
+    
+    .text-footer{
+        font-family: Benedict;
+        font-size: 16px;
+        color: #f9b701;
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+    .social-media{
+        margin-bottom: 11px;
+        justify-content: space-around;
+        width: 80px;
+        height: 50px;
+    }
+
+    .social_twitter{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_instagram{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_facebook{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_youtube{
+        color: #f9b701;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        background-image: url(./Img/Adelewebsite.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .img-sectiontwo{
+        width: 100%;
+    }
+
+    .header_top_bar{
+        display: flex;
+        padding-left: 9px;
+        align-items: center;
+        width: 100%;
+        height: 6vh;
+        background-color: #294a51;
+    }
+ 
+    .nav-container-disc{
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-family: theseasons;
+        padding: 20px;
+    }
+    
+    .link-about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 12%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link-discography{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 22%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link-awards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 18%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link-30{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 9%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link-contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 18%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+
+    .title-sectiontwo{
+        position: absolute;
+        top: 180px;
+        right: 4%;
+        font-family: Benedict;
+        color: whitesmoke;
+        font-size: 110px;
+    }
+    
+    .subtitle-sectiontwo{
+        font-family: theseasons;
+        font-size: 45px;
+        position:absolute;
+        top: 55%;
+        right: 8%;
+        color: #f9b701;
+    }
+
+    img{
+        width: 100%;
+    }
+    
+    .albums{
+        margin-left: 70px;
+        margin-top: 300px;
+        align-content: center;
+        width:400px;
+        height:400px;
+        display: grid;
+        grid-template-columns: 250px 250px;
+        grid-row: auto auto;
+        grid-column-gap: 140px;
+    }
+    
+    h2{
+        padding:20px;
+        border-radius:10px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:  40px;
+    }
+
+    .title-19{
+        font-family: Hillshort;
+        color: #f9b701;
+        font-size: 100px;
+        position: absolute;
+        left: 30px;
+        top: 490px;
+    }
+    
+    .title-21{
+        font-family: Hillshort;
+        color: #f9b701;
+        font-size: 100px;
+        position: absolute;
+        right: 260px;
+        top: 490px;
+    }
+    
+    .title-25{
+        font-family: Hillshort;
+        color: #f9b701;
+        font-size: 100px;
+        position: absolute;
+        left: 22px;
+        top: 890px;
+    }
+    
+    .title-30{
+        font-family: Hillshort;
+        color: #f9b701;
+        font-size: 100px;
+        position: absolute;
+        right: 260px;
+        top: 890px;
+    }
+    
+    .button_19{
+      background-color: whitesmoke;
+      border-radius: 20px;
+      color: black;
+      cursor: pointer;
+      font-family: theseasons;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 20px;
+      list-style: none;
+      padding: 10px 12px;
+      text-align: center;
+      transition: all 200ms;
+      touch-action: manipulation;
+      margin-top: 20px;
+      margin-bottom: 80px;
+      left: 55px;
+      position: relative;
+    }
+    
+    .button_21{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+        margin-top: 20px;
+        margin-bottom: 80px;
+        left: 55px;
+        position: relative;
+    }
+    
+    .button_25{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+        margin-top: 20px;
+        margin-bottom: 80px;
+        left: 55px;
+        position: relative;
+    }
+    
+    .button_30{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+        margin-top: 20px;
+        margin-bottom: 80px;
+        left: 55px;
+        position: relative;
+    }
+    
+    .videos{
+        text-align: center;
+        margin-top: 250px;
+        display:inline-flex;
+    }
+
+    iframe{
+        margin: 0;
+        padding: 0px;
+        width: 100%;
+    }
+    
+    .text_2{
+        text-align: center;
+        margin: 40px;
+        font-family: Backtalk;
+        font-size: 19px;
+        color: whitesmoke;
+        line-height: 30px;
+    }
+    
+    .footer-container{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 8vh;
+        background-color: #294a51;
+        position: absolute;
+    }
+    
+    .text-footer{
+        font-family: Benedict;
+        font-size: 16px;
+        color: #f9b701;
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+    .social-media{
+        margin-bottom: 11px;
+        justify-content: space-around;
+        width: 80px;
+        height: 50px;
+    }
+
+    .social_twitter{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_instagram{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_facebook{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_youtube{
+        color: #f9b701;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    body{
+        background-image: url(./Img/Adelewebsite.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .img-sectiontwo{
+        width: 100%;
+    }
+
+    .header_top_bar{
+        display: flex;
+        padding-left: 9px;
+        align-items: center;
+        width: 100%;
+        height: 6vh;
+        background-color: #294a51;
+    }
+ 
+    .nav-container-disc{
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-family: theseasons;
+        padding: 20px;
+    }
+    
+    .link-about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 20%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link-discography{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 38%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link-awards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 22%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link-30{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 10%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link-contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 22%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+
+    .title-sectiontwo{
+        position: absolute;
+        top: 100px;
+        right: 4%;
+        font-family: Benedict;
+        color: whitesmoke;
+        font-size: 75px;
+    }
+    
+    .subtitle-sectiontwo{
+        font-family: theseasons;
+        font-size: 25px;
+        position:absolute;
+        top: 40%;
+        right: 8%;
+        color: #f9b701;
+    }
+
+    img{
+        width: 100%;
+    }
+    
+    .albums{
+        margin-left: 35px;
+        margin-top: 300px;
+        align-content: center;
+        width: 300px;
+        height: 300px;
+        display: grid;
+        grid-template-columns: 200px 200px;
+        grid-row: auto auto;
+        grid-column-gap: 10px;
+    }
+    
+    h2{
+        padding:20px;
+        border-radius:10px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:  40px;
+    }
+
+    .title-19{
+        font-family: Hillshort;
+        color: #f9b701;
+        font-size: 70px;
+        position: absolute;
+        left: 5px;
+        top: 340px;
+    }
+    
+    .title-21{
+        font-family: Hillshort;
+        color: #f9b701;
+        font-size: 70px;
+        position: absolute;
+        right: 170px;
+        top: 340px;
+    }
+    
+    .title-25{
+        font-family: Hillshort;
+        color: #f9b701;
+        font-size: 70px;
+        position: absolute;
+        left: 5px;
+        top: 690px;
+    }
+    
+    .title-30{
+        font-family: Hillshort;
+        color: #f9b701;
+        font-size: 70px;
+        position: absolute;
+        right: 170px;
+        top: 690px;
+    }
+    
+    .button_19{
+      background-color: whitesmoke;
+      border-radius: 20px;
+      color: black;
+      cursor: pointer;
+      font-family: theseasons;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 20px;
+      list-style: none;
+      padding: 10px 12px;
+      text-align: center;
+      transition: all 200ms;
+      touch-action: manipulation;
+      margin-top: 20px;
+      margin-bottom: 80px;
+      left: 50px;
+      position: relative;
+    }
+    
+    .button_21{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+        margin-top: 20px;
+        margin-bottom: 80px;
+        left: 50px;
+        position: relative;
+    }
+    
+    .button_25{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+        margin-top: 20px;
+        margin-bottom: 80px;
+        left: 50px;
+        position: relative;
+    }
+    
+    .button_30{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+        margin-top: 20px;
+        margin-bottom: 80px;
+        left: 50px;
+        position: relative;
+    }
+    
+    .videos{
+        text-align: center;
+        margin-top: 250px;
+        display:inline-flex;
+    }
+
+    iframe{
+        margin: 0;
+        padding: 0px;
+        width: 100%;
+    }
+    
+    .text_2{
+        text-align: center;
+        margin: 40px;
+        font-family: Backtalk;
+        font-size: 19px;
+        color: whitesmoke;
+        line-height: 30px;
+    }
+    
+    .footer-container{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 8vh;
+        background-color: #294a51;
+        position: absolute;
+    }
+    
+    .text-footer{
+        font-family: Benedict;
+        font-size: 16px;
+        color: #f9b701;
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+    .social-media{
+        margin-bottom: 11px;
+        justify-content: space-around;
+        width: 80px;
+        height: 50px;
+    }
+    
+    .social_twitter{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_instagram{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_facebook{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_youtube{
+        color: #f9b701;
+        align-items: center;
+    }
+}

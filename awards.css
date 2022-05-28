@@ -1,0 +1,1412 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header_top_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 6vh;
+    background-color: #294a51;
+}
+
+@font-face {
+    font-family: theseasons;
+    src: url(./fonts/the_seasons_bold-webfont.ttf);
+}
+.logo{
+    font-family: theseasons;
+    font-size: 20px;
+    color: #f9b701;
+    text-decoration: none;
+    width: 10%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-container-awards{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: theseasons;
+}
+
+.link__about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 18%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+.link__discography{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 30%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+.link__awards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 18%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+.link__30{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 9%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+.link__contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 18%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+@font-face {
+    font-family: Benedict;
+    src: url(./fonts/Benedict.ttf);
+}
+
+.img-sectiontwo{
+    width: 100%;
+}
+
+.title-sectionthree{
+    position: absolute;
+    top: 300px;
+    right: 8%;
+    font-family: Benedict;
+    color: whitesmoke;
+    font-size: 250px;
+}
+.titlesection_three{
+    position: absolute;
+    top: 550px;
+    right: 8%;
+    font-family: theseasons;
+    color: #f9b701;
+    font-size: 60px;
+}
+
+.subtitle-sectionthree{
+    font-family: theseasons;
+    font-size: 70px;
+    position:absolute;
+    top: 700px;
+    right: 15%;
+    color: #f9b701;
+}
+
+body{
+    background-image: url(./Img/Adelewebsite.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.img_grammy{
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.img_brit{
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-right: 40px;
+}
+
+.img_gga{
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-right: 40px;
+    margin-left: 40px;
+
+}
+
+.img_oscars{
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-right: 40px;
+}
+
+.awards_container{
+    margin-left: 200px;
+    margin-top: 330px;
+    align-content: center;
+    width:400px;
+    height:400px;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-row: auto auto;
+    grid-column-gap: 480px;
+}
+
+h2{
+    padding:50px;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size: 40px;
+}
+
+.title-grammy{
+    font-family: theseasons;
+    color: #f9b701;
+    font-size: 100px;
+    position: absolute;
+    left: 160px;
+    top: 960px;
+}
+
+.title-brit{
+    font-family: theseasons;
+    color: #f9b701;
+    font-size: 90px;
+    position: absolute;
+    right: 450px;
+    top: 960px;
+}
+
+.title-gga{
+    font-family: theseasons;
+    color: #f9b701;
+    font-size: 90px;
+    position: absolute;
+    left: 200px;
+    top: 1400px;
+}
+
+.title-oscars{
+    font-family: theseasons;
+    color: #f9b701;
+    font-size: 90px;
+    position: absolute;
+    right: 440px;
+    top: 1400px;
+}
+
+.button_grammy{
+  background-color: whitesmoke;
+  border-radius: 20px;
+  color: black;
+  cursor: pointer;
+  font-family: theseasons;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  touch-action: manipulation;
+  margin-top: -20px;
+  margin-bottom: 40px;
+  left: 80px;
+  position: relative;
+}
+
+.button_brit{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    font-family: theseasons;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    touch-action: manipulation;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    left: 80px;
+    position: relative;
+}
+
+.button_gga{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    font-family: theseasons;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    touch-action: manipulation;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    left: 40px;
+    position: relative;
+}
+
+.button_oscars{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    font-family: theseasons;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    touch-action: manipulation;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    left: 60px;
+    position: relative;
+}
+
+.button_more{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    font-family: theseasons;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    touch-action: manipulation;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    left: 610px;
+    position: relative;
+}
+
+img{
+    width: 60%
+}
+
+.more_awards{
+    text-align: center;
+    margin-top: 50px;
+    display:inline-flex;
+    margin-right: 100px;
+}
+
+@font-face {
+    font-family: Backtalk;
+    src: url(./fonts/BacktalkSans-BTN_5563.ttf);
+}
+
+.text_3{
+    text-align: center;
+    margin: 40px;
+    font-family: Backtalk;
+    font-size: 19px;
+    color: whitesmoke;
+    line-height: 30px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    background-color: #294a51;
+    position: absolute;
+}
+
+.text-footer{
+    font-family: Benedict;
+    font-size: 16px;
+    color: #f9b701;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.social-media{
+    margin-bottom: 11px;
+    justify-content: space-around;
+    width: 80px;
+    height: 50px;
+}
+.social_twitter{
+    color: #f9b701;
+    align-items: center;
+}
+
+.social_instagram{
+    color: #f9b701;
+    align-items: center;
+}
+
+.social_facebook{
+    color: #f9b701;
+    align-items: center;
+}
+
+.social_youtube{
+    color: #f9b701;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    body{
+        background-image: url(./Img/Adelewebsite.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .img-sectiontwo{
+        width: 100%;
+    }
+
+    .header_top_bar{
+        display: flex;
+        padding-left: 10px;
+        align-items: center;
+        width: 100%;
+        height: 6vh;
+        background-color: #294a51;
+    }
+ 
+    .nav-container-awards{
+        width: 55%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-family: theseasons;
+        padding: 50px;
+    }
+    
+    .link__about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 12%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link__discography{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 22%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link__awards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 18%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link__30{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 9%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link__contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 18%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+
+    .img-sectiontwo{
+        width: 100%;
+    }
+
+    .title-sectionthree{
+        position: absolute;
+        top: 140px;
+        right: 10%;
+        font-family: Benedict;
+        color: whitesmoke;
+        font-size: 180px;
+    }
+
+    .titlesection_three{
+        position: absolute;
+        top: 300px;
+        right: 1%;
+        font-family: theseasons;
+        color: #f9b701;
+        font-size: 50px;
+    }
+    
+    .subtitle-sectionthree{
+        font-family: theseasons;
+        font-size: 40px;
+        position:absolute;
+        top: 70%;
+        right: 13%;
+        color: #f9b701;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    .img_grammy{
+        width: 100%;
+        border-radius: 50%;
+        margin-top: 80px;
+        margin-left: 40px;
+    }
+
+    .img_brit{
+        width: 100%;
+        border-radius: 50%;
+        margin-top: 80px;
+        margin-right: 0px;
+    }
+    
+    .img_gga{
+        width: 100%;
+        border-radius: 50%;
+        margin-top: 60px;
+        margin-right: 40px;
+        margin-left: 40px;
+    
+    }
+    
+    .img_oscars{
+        width: 100%;
+        border-radius: 50%;
+        margin-top: 60px;
+        margin-right: 40px;
+    }
+    
+    .awards_container{
+        margin-left: 100px;
+        margin-top: 330px;
+        align-content: center;
+        width:400px;
+        height:400px;
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-row: auto auto;
+        grid-column-gap: 200px;
+    }
+    
+    h2{
+        padding:50px;
+        border-radius:10px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size: 40px;
+    }
+    
+    .title-grammy{
+        font-family: theseasons;
+        color: #f9b701;
+        font-size: 100px;
+        position: absolute;
+        left: 90px;
+        top: 650px;
+    }
+    
+    .title-brit{
+        font-family: theseasons;
+        color: #f9b701;
+        font-size: 100px;
+        position: absolute;
+        right: 335px;
+        top: 675px;
+    }
+    
+    .title-gga{
+        font-family: theseasons;
+        color: #f9b701;
+        font-size: 90px;
+        position: absolute;
+        left: 100px;
+        top: 1110px;
+    }
+    
+    .title-oscars{
+        font-family: theseasons;
+        color: #f9b701;
+        font-size: 100px;
+        position: absolute;
+        right: 335px;
+        top: 1100px;
+    }
+    
+    .button_grammy{
+      background-color: whitesmoke;
+      border-radius: 20px;
+      color: black;
+      cursor: pointer;
+      font-family: theseasons;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 20px;
+      list-style: none;
+      padding: 10px 12px;
+      text-align: center;
+      transition: all 200ms;
+      touch-action: manipulation;
+      margin-top: -20px;
+      margin-bottom: 40px;
+      left: 80px;
+      position: relative;
+    }
+    
+    .button_brit{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+        margin-top: -20px;
+        margin-bottom: 40px;
+        left: 80px;
+        position: relative;
+    }
+    
+    .button_gga{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+        margin-top: -20px;
+        margin-bottom: 40px;
+        left: 55px;
+        position: relative;
+    }
+    
+    .button_oscars{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+        margin-top: -20px;
+        margin-bottom: 40px;
+        left: 60px;
+        position: relative;
+    }
+    
+    .button_more{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+        margin-top: 300px;
+        margin-bottom: 50px;
+        left: 355px;
+        position: relative;
+    }
+    
+    .more_awards{
+        text-align: center;
+        margin-top: 50px;
+        display:inline-block;
+        margin-right: 0px;
+        width: 100%;
+    }
+    
+    .text_3{
+        text-align: center;
+        margin: 40px;
+        font-family: Backtalk;
+        font-size: 19px;
+        color: whitesmoke;
+        line-height: 30px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        background-image: url(./Img/Adelewebsite.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .img-sectiontwo{
+        width: 100%;
+    }
+
+    .header_top_bar{
+        display: flex;
+        padding-left: 9px;
+        align-items: center;
+        width: 100%;
+        height: 6vh;
+        background-color: #294a51;
+    }
+ 
+    .nav-container-awards{
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-family: theseasons;
+        padding: 20px;
+    }
+    
+    .link__about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 12%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link__discography{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 22%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link__awards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 18%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link__30{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 9%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link__contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 18%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+
+    .img-sectiontwo{
+        width: 100%;
+    }
+
+    .title-sectionthree{
+        position: absolute;
+        top: 120px;
+        right: 5%;
+        font-family: Benedict;
+        color: whitesmoke;
+        font-size: 170px;
+    }
+
+    .titlesection_three{
+        position: absolute;
+        top: 250px;
+        right: 0%;
+        font-family: theseasons;
+        color: #f9b701;
+        font-size: 35px;
+    }
+    
+    .subtitle-sectionthree{
+        font-family: theseasons;
+        font-size: 30px;
+        position:absolute;
+        top: 55%;
+        right: 12%;
+        color: #f9b701;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    .img_grammy{
+        width: 100%;
+        border-radius: 50%;
+        margin-top: 80px;
+        margin-left: 40px;
+    }
+
+    .img_brit{
+        width: 100%;
+        border-radius: 50%;
+        margin-top: 80px;
+        margin-right: 0px;
+    }
+    
+    .img_gga{
+        width: 100%;
+        border-radius: 50%;
+        margin-top: 60px;
+        margin-right: 40px;
+        margin-left: 40px;
+    
+    }
+    
+    .img_oscars{
+        width: 100%;
+        border-radius: 50%;
+        margin-top: 60px;
+        margin-right: 40px;
+    }
+    
+    .awards_container{
+        margin-left: 10px;
+        margin-top: 250px;
+        align-content: center;
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-row: auto auto;
+        grid-column-gap: 90px;
+    }
+    
+    h2{
+        padding:50px;
+        border-radius:10px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size: 40px;
+    }
+    
+    .title-grammy{
+        font-family: theseasons;
+        color: #f9b701;
+        font-size: 80px;
+        position: absolute;
+        left: 30px;
+        top: 450px;
+    }
+    
+    .title-brit{
+        font-family: theseasons;
+        color: #f9b701;
+        font-size: 80px;
+        position: absolute;
+        right: 235px;
+        top: 450px;
+    }
+    
+    .title-gga{
+        font-family: theseasons;
+        color: #f9b701;
+        font-size: 80px;
+        position: absolute;
+        left: 30px;
+        top: 900px;
+    }
+    
+    .title-oscars{
+        font-family: theseasons;
+        color: #f9b701;
+        font-size: 80px;
+        position: absolute;
+        right: 235px;
+        top: 880px;
+    }
+    
+    .button_grammy{
+      background-color: whitesmoke;
+      border-radius: 20px;
+      color: black;
+      cursor: pointer;
+      font-family: theseasons;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 20px;
+      list-style: none;
+      padding: 10px 12px;
+      text-align: center;
+      transition: all 200ms;
+      touch-action: manipulation;
+      margin-top: -20px;
+      margin-bottom: 40px;
+      left: 80px;
+      position: relative;
+    }
+    
+    .button_brit{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+        margin-top: -20px;
+        margin-bottom: 40px;
+        left: 80px;
+        position: relative;
+    }
+    
+    .button_gga{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+        margin-top: -20px;
+        margin-bottom: 40px;
+        left: 55px;
+        position: relative;
+    }
+    
+    .button_oscars{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+        margin-top: -20px;
+        margin-bottom: 40px;
+        left: 60px;
+        position: relative;
+    }
+    
+    .button_more{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+        margin-top: 300px;
+        margin-bottom: 50px;
+        left: 225px;
+        position: relative;
+    }
+    
+    .more_awards{
+        text-align: center;
+        margin-top: 30px;
+        display:inline-block;
+        width:100%;
+    }
+    
+    .text_3{
+        text-align: center;
+        margin: 40px;
+        padding: 10px;
+        font-family: Backtalk;
+        font-size: 19px;
+        color: whitesmoke;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    body{
+        background-image: url(./Img/Adelewebsite.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .img-sectiontwo{
+        width: 100%;
+    }
+    
+    .header_top_bar{
+        display: flex;
+        padding-left: 9px;
+        align-items: center;
+        width: 100%;
+        height: 6vh;
+        background-color: #294a51;
+        font-size: 14px;
+    }
+     
+    .nav-container-awards{
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-family: theseasons;
+        padding: 20px;
+    }
+        
+    .link__about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 20%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+        
+    .link__discography{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 38%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+        
+    .link__awards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 22%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+        
+    .link__30{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 10%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+        
+    .link__contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 22%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+
+    .img-sectiontwo{
+        width: 100%;
+    }
+
+    .title-sectionthree{
+        position: absolute;
+        top: 50px;
+        right: 5%;
+        font-family: Benedict;
+        color: whitesmoke;
+        font-size: 110px;
+    }
+
+    .titlesection_three{
+        position: absolute;
+        top: 120px;
+        left: 48%;
+        font-family: theseasons;
+        color: #f9b701;
+        font-size: 18px;
+    }
+    
+    .subtitle-sectionthree{
+        font-family: theseasons;
+        font-size: 20px;
+        position:absolute;
+        top: 30%;
+        left: 250px;
+        color: #f9b701;
+    }
+
+    .img_grammy{
+        width: 80%;
+        border-radius: 50%;
+        margin-top: 5px;
+        margin-left: 85px;
+    }
+
+    .img_brit{
+        width: 80%;
+        border-radius: 50%;
+        margin-top: 50px;
+        margin-left: 85px;
+    }
+    
+    .img_gga{
+        width: 80%;
+        border-radius: 50%;
+        margin-top: 40px;
+        margin-left: 85px;
+    
+    }
+    
+    .img_oscars{
+        width: 80%;
+        border-radius: 50%;
+        margin-top: 60px;
+        margin-left: 85px;
+    }
+    
+    .awards_container{
+        margin-left: 0px;
+        margin-top: 100px;
+        align-content: center;
+        display: inline-table;
+        grid-template-columns: 280px 280px;
+        grid-row: auto auto;
+        grid-column-gap: 1px;
+    }
+    
+    h2{
+        padding:50px;
+        border-radius:10px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size: 40px;
+    }
+    
+    .title-grammy{
+        font-family: theseasons;
+        color: #f9b701;
+        font-size: 70px;
+        position: absolute;
+        left: 45px;
+        top: 320px;
+    }
+    
+    .title-brit{
+        font-family: theseasons;
+        color: #f9b701;
+        font-size: 70px;
+        position: absolute;
+        left: 45px;
+        top: 750px;
+    }
+    
+    .title-gga{
+        font-family: theseasons;
+        color: #f9b701;
+        font-size: 70px;
+        position: absolute;
+        left: 65px;
+        top: 1210px;
+    }
+    
+    .title-oscars{
+        font-family: theseasons;
+        color: #f9b701;
+        font-size: 70px;
+        position: absolute;
+        left: 45px;
+        top: 1650px;
+    }
+    
+    .button_grammy{
+      background-color: whitesmoke;
+      border-radius: 20px;
+      color: black;
+      cursor: pointer;
+      font-family: theseasons;
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 20px;
+      list-style: none;
+      padding: 10px 12px;
+      text-align: center;
+      transition: all 200ms;
+      touch-action: manipulation;
+      margin-top: -20px;
+      margin-bottom: 40px;
+      left: 130px;
+      position: relative;
+    }
+    
+    .button_brit{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+        margin-top: -20px;
+        margin-bottom: 40px;
+        left: 160px;
+        position: relative;
+    }
+    
+    .button_gga{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+        margin-top: -20px;
+        margin-bottom: 40px;
+        left: 100px;
+        position: relative;
+    }
+    
+    .button_oscars{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+        margin-top: -20px;
+        margin-bottom: 40px;
+        left: 140px;
+        position: relative;
+    }
+    
+    .button_more{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+        margin-top: 150px;
+        margin-bottom: 50px;
+        left: 75px;
+        position: relative;
+    }
+    
+    iframe{
+        width: 70%;
+    }
+
+    .more_awards{
+        text-align: center;
+        margin-top: 30px;
+        display:inline-block;
+    }
+    
+    .text_3{
+        text-align: center;
+        margin: 40px;
+        padding: 10px;
+        font-family: Backtalk;
+        font-size: 19px;
+        color: whitesmoke;
+        line-height: 30px;
+    }
+}

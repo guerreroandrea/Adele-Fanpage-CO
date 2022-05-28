@@ -1,0 +1,1211 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header-topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 6vh;
+    background-color: #294a51;
+}
+
+@font-face {
+    font-family: theseasons;
+    src: url(./fonts/the_seasons_bold-webfont.ttf);
+}
+.header-logo{
+    font-family: theseasons;
+    font-size: 20px;
+    color: #f9b701;
+    text-decoration: none;
+    width: 10%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-container{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: theseasons;
+}
+
+.link_about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 18%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+.link_discography{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 30%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+.link_awards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 18%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+.link_30{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 9%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+.link_contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width:1px;
+    border-style: solid;
+    border-color:#f9b701;
+    width: 18%;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #f9b701;
+}
+
+@font-face {
+    font-family: Benedict;
+    src: url(./fonts/Benedict.ttf);
+}
+
+.img-sectionfive{
+    width: 100%;
+}
+
+.title-sectionfive{
+    position: absolute;
+    top: 240px;
+    right: 5%;
+    font-family: Benedict;
+    color: #f9b701;
+    font-size: 200px;
+}
+.title_sectionfive{
+    position: absolute;
+    top: 420px;
+    right: 10%;
+    font-family: theseasons;
+    color: whitesmoke;
+    font-size: 150px;
+}
+
+.subtitle-sectionfive{
+    font-family: theseasons;
+    font-size: 60px;
+    position:absolute;
+    top: 750px;
+    right: 15%;
+    color: #f9b701;
+}
+
+body{
+    background-image: url(./Img/Adelewebsite.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.title-5{
+    margin-top: 100px;
+    font-family: theseasons;
+    color: #f9b701;
+    font-size: 100px;
+}
+
+.plataforms{
+    font-size: 90px;
+    margin: 50px;
+}
+
+.social_spotify{
+    color: whitesmoke;
+}
+
+.social_amazon{
+    color: whitesmoke;
+}
+
+.social_ytmusic{
+    color: whitesmoke;
+}
+
+.social_applemusic{
+    color: whitesmoke;
+}
+
+.social_deezer{
+    color: whitesmoke;
+}
+
+.button_web{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    font-family: theseasons;
+    font-size: 20px;
+    list-style: none;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    touch-action: manipulation;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.form{
+    margin: 0 auto;
+    width: 300px;
+    background-color: whitesmoke;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+input, textarea{
+    padding: 5px;
+}
+
+label{
+    display: block;
+    padding: 5px;
+}
+
+p{
+    margin: 10px;
+}
+
+button{
+    padding:8px 12px;
+    margin:8px 0 0;
+    font-family:'Montserrat',sans-serif;
+    border:2px solid #78788c;
+    background:0;
+    color:#5a5a6e;
+    cursor:pointer;
+    transition:all .3s
+}
+
+.form{
+    font-family: theseasons;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    font-family: theseasons;
+    transition:all .3s;
+    border-bottom:2px solid #bebed2
+}
+
+input:focus{
+    border-bottom:2px solid #78788c
+}
+
+p:before{
+    content:attr(type);
+    display:block;
+    margin-bottom:10px;
+    font-size:14px;
+    color:#5a5a5a;
+}
+
+button:hover{
+    background:#78788c;
+    color:#fff
+}
+
+.footer-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    background-color: #294a51;
+    position: absolute;
+}
+
+.text-footer{
+    font-family: Benedict;
+    font-size: 16px;
+    color: #f9b701;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.social-media{
+    margin-bottom: 11px;
+    justify-content: space-around;
+    width: 80px;
+    height: 50px;
+}
+.social_twitter{
+    color: #f9b701;
+    align-items: center;
+}
+
+.social_instagram{
+    color: #f9b701;
+    align-items: center;
+}
+
+.social_facebook{
+    color: #f9b701;
+    align-items: center;
+}
+
+.social_youtube{
+    color: #f9b701;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .header-topbar{
+        display: flex;
+        padding-left: 10px;
+        align-items: center;
+        width: 100%;
+        height: 6vh;
+        background-color: #294a51;
+    }
+    
+    .header-logo{
+        font-family: theseasons;
+        font-size: 20px;
+        color: #f9b701;
+        text-decoration: none;
+        width: 10%;
+        text-align: center;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .nav-container{
+        width: 55%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-family: theseasons;
+        padding: 50px;
+    }
+    
+    .link_about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 12%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_discography{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 22%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_awards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 18%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_30{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 9%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 18%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .img-sectionfive{
+        width: 100%;
+    }
+    
+    .title-sectionfive{
+        position: absolute;
+        top: 140px;
+        right: 4%;
+        font-family: Benedict;
+        color: #f9b701;
+        font-size: 150px;
+    }
+    .title_sectionfive{
+        position: absolute;
+        top: 270px;
+        right: 3%;
+        font-family: theseasons;
+        color: whitesmoke;
+        font-size: 140px;
+    }
+    
+    .subtitle-sectionfive{
+        font-family: theseasons;
+        font-size: 50px;
+        position:absolute;
+        top: 490px;
+        right: 15%;
+        color: #f9b701;
+    }
+    
+    body{
+        background-image: url(./Img/Adelewebsite.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    
+    .title-5{
+        margin-top: 100px;
+        font-family: theseasons;
+        color: #f9b701;
+        font-size: 100px;
+        text-align: center;
+    }
+    
+    .plataforms{
+        font-size: 90px;
+        margin: 50px;
+        text-align: center;
+    }
+    
+    .social_spotify{
+        color: whitesmoke;
+    }
+    
+    .social_amazon{
+        color: whitesmoke;
+    }
+    
+    .social_ytmusic{
+        color: whitesmoke;
+    }
+    
+    .social_applemusic{
+        color: whitesmoke;
+    }
+    
+    .social_deezer{
+        color: whitesmoke;
+    }
+    
+    .button_web{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 20px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    
+    .form{
+        margin: 0 auto;
+        width: 300px;
+        background-color: whitesmoke;
+        padding: 50px;
+        margin-bottom: 50px;
+    }
+    
+    input, textarea{
+        padding: 5px;
+    }
+    
+    label{
+        display: block;
+        padding: 5px;
+    }
+    
+    p{
+        margin: 10px;
+    }
+    
+    button{
+        padding:8px 12px;
+        margin:8px 0 0;
+        font-family:'Montserrat',sans-serif;
+        border:2px solid #78788c;
+        background:0;
+        color:#5a5a6e;
+        cursor:pointer;
+        transition:all .3s
+    }
+    
+    .form{
+        font-family: theseasons;
+    }
+    
+    input{
+        width:100%;
+        padding:10px;
+        box-sizing:border-box;
+        background:none;
+        outline:none;
+        resize:none;
+        border:0;
+        font-family: theseasons;
+        transition:all .3s;
+        border-bottom:2px solid #bebed2
+    }
+    
+    input:focus{
+        border-bottom:2px solid #78788c
+    }
+    
+    p:before{
+        content:attr(type);
+        display:block;
+        margin-bottom:10px;
+        font-size:14px;
+        color:#5a5a5a;
+    }
+    
+    button:hover{
+        background:#78788c;
+        color:#fff
+    }
+    
+    .footer-container{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 8vh;
+        background-color: #294a51;
+        position: absolute;
+    }
+    
+    .text-footer{
+        font-family: Benedict;
+        font-size: 16px;
+        color: #f9b701;
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+    .social-media{
+        margin-bottom: 11px;
+        justify-content: space-around;
+        width: 80px;
+        height: 50px;
+    }
+    .social_twitter{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_instagram{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_facebook{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_youtube{
+        color: #f9b701;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-topbar{
+        display: flex;
+        padding-left: 9px;
+        align-items: center;
+        width: 100%;
+        height: 6vh;
+        background-color: #294a51;
+    }
+    
+    .header-logo{
+        font-family: theseasons;
+        font-size: 20px;
+        color: #f9b701;
+        text-decoration: none;
+        width: 10%;
+        text-align: center;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .nav-container{
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-family: theseasons;
+        padding: 20px;
+    }
+    
+    .link_about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 12%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_discography{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 22%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_awards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 18%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_30{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 9%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 18%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .img-sectionfive{
+        width: 100%;
+    }
+    
+    .title-sectionfive{
+        position: absolute;
+        top: 100px;
+        right: 5%;
+        font-family: Benedict;
+        color: #f9b701;
+        font-size: 100px;
+    }
+    .title_sectionfive{
+        position: absolute;
+        top: 200px;
+        right: 3%;
+        font-family: theseasons;
+        color: whitesmoke;
+        font-size: 105px;
+    }
+    
+    .subtitle-sectionfive{
+        font-family: theseasons;
+        font-size: 40px;
+        position:absolute;
+        top: 370px;
+        right: 14%;
+        color: #f9b701;
+    }
+    
+    body{
+        background-image: url(./Img/Adelewebsite.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    
+    .title-5{
+        margin-top: 100px;
+        font-family: theseasons;
+        color: #f9b701;
+        font-size: 80px;
+        text-align: center;
+    }
+    
+    .plataforms{
+        font-size: 90px;
+        margin: 50px;
+        text-align: center;
+    }
+    
+    .social_spotify{
+        color: whitesmoke;
+    }
+    
+    .social_amazon{
+        color: whitesmoke;
+    }
+    
+    .social_ytmusic{
+        color: whitesmoke;
+    }
+    
+    .social_applemusic{
+        color: whitesmoke;
+    }
+    
+    .social_deezer{
+        color: whitesmoke;
+    }
+    
+    .button_web{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 20px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    
+    .form{
+        margin: 0 auto;
+        width: 300px;
+        background-color: whitesmoke;
+        padding: 50px;
+        margin-bottom: 50px;
+    }
+    
+    input, textarea{
+        padding: 5px;
+    }
+    
+    label{
+        display: block;
+        padding: 5px;
+    }
+    
+    p{
+        margin: 10px;
+    }
+    
+    button{
+        padding:8px 12px;
+        margin:8px 0 0;
+        font-family:'Montserrat',sans-serif;
+        border:2px solid #78788c;
+        background:0;
+        color:#5a5a6e;
+        cursor:pointer;
+        transition:all .3s
+    }
+    
+    .form{
+        font-family: theseasons;
+    }
+    
+    input{
+        width:100%;
+        padding:10px;
+        box-sizing:border-box;
+        background:none;
+        outline:none;
+        resize:none;
+        border:0;
+        font-family: theseasons;
+        transition:all .3s;
+        border-bottom:2px solid #bebed2
+    }
+    
+    input:focus{
+        border-bottom:2px solid #78788c
+    }
+    
+    p:before{
+        content:attr(type);
+        display:block;
+        margin-bottom:10px;
+        font-size:14px;
+        color:#5a5a5a;
+    }
+    
+    button:hover{
+        background:#78788c;
+        color:#fff
+    }
+    
+    .footer-container{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 8vh;
+        background-color: #294a51;
+        position: absolute;
+    }
+    
+    .text-footer{
+        font-family: Benedict;
+        font-size: 16px;
+        color: #f9b701;
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+    .social-media{
+        margin-bottom: 11px;
+        justify-content: space-around;
+        width: 80px;
+        height: 50px;
+    }
+    .social_twitter{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_instagram{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_facebook{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_youtube{
+        color: #f9b701;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header-topbar{
+        display: flex;
+        padding-left: 9px;
+        align-items: center;
+        width: 100%;
+        height: 6vh;
+        background-color: #294a51;
+        font-size: 14px;
+    }
+    
+    .header-logo{
+        font-family: theseasons;
+        font-size: 20px;
+        color: #f9b701;
+        text-decoration: none;
+        width: 10%;
+        text-align: center;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .nav-container{
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-family: theseasons;
+        padding: 20px;
+    }
+    
+    .link_about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 20%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_discography{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 38%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_awards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 22%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_30{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 10%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .link_contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-width:1px;
+        border-style: solid;
+        border-color:#f9b701;
+        width: 22%;
+        align-items: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #f9b701;
+    }
+    
+    .img-sectionfive{
+        width: 100%;
+    }
+    
+    .title-sectionfive{
+        position: absolute;
+        top: 70px;
+        right: 4%;
+        font-family: Benedict;
+        color: #f9b701;
+        font-size: 70px;
+    }
+    .title_sectionfive{
+        position: absolute;
+        top: 130px;
+        right: 3%;
+        font-family: theseasons;
+        color: whitesmoke;
+        font-size: 65px;
+    }
+    
+    .subtitle-sectionfive{
+        font-family: theseasons;
+        font-size: 30px;
+        position:absolute;
+        top: 240px;
+        right: 12%;
+        color: #f9b701;
+    }
+    
+    body{
+        background-image: url(./Img/Adelewebsite.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    
+    .title-5{
+        margin-top: 100px;
+        font-family: theseasons;
+        color: #f9b701;
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .plataforms{
+        font-size: 50px;
+        margin: 50px;
+        text-align: center;
+    }
+    
+    .social_spotify{
+        color: whitesmoke;
+    }
+    
+    .social_amazon{
+        color: whitesmoke;
+    }
+    
+    .social_ytmusic{
+        color: whitesmoke;
+    }
+    
+    .social_applemusic{
+        color: whitesmoke;
+    }
+    
+    .social_deezer{
+        color: whitesmoke;
+    }
+    
+    .button_web{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        color: black;
+        cursor: pointer;
+        font-family: theseasons;
+        font-size: 20px;
+        list-style: none;
+        padding: 10px 12px;
+        text-align: center;
+        transition: all 200ms;
+        touch-action: manipulation;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    
+    .form{
+        margin: 0 auto;
+        width: 300px;
+        background-color: whitesmoke;
+        padding: 50px;
+        margin-bottom: 50px;
+    }
+    
+    input, textarea{
+        padding: 5px;
+    }
+    
+    label{
+        display: block;
+        padding: 5px;
+    }
+    
+    p{
+        margin: 10px;
+    }
+    
+    button{
+        padding:8px 12px;
+        margin:8px 0 0;
+        font-family:'Montserrat',sans-serif;
+        border:2px solid #78788c;
+        background:0;
+        color:#5a5a6e;
+        cursor:pointer;
+        transition:all .3s
+    }
+    
+    .form{
+        font-family: theseasons;
+    }
+    
+    input{
+        width:100%;
+        padding:10px;
+        box-sizing:border-box;
+        background:none;
+        outline:none;
+        resize:none;
+        border:0;
+        font-family: theseasons;
+        transition:all .3s;
+        border-bottom:2px solid #bebed2
+    }
+    
+    input:focus{
+        border-bottom:2px solid #78788c
+    }
+    
+    p:before{
+        content:attr(type);
+        display:block;
+        margin-bottom:10px;
+        font-size:14px;
+        color:#5a5a5a;
+    }
+    
+    button:hover{
+        background:#78788c;
+        color:#fff
+    }
+    
+    .footer-container{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 8vh;
+        background-color: #294a51;
+        position: absolute;
+    }
+    
+    .text-footer{
+        font-family: Benedict;
+        font-size: 16px;
+        color: #f9b701;
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+    .social-media{
+        margin-bottom: 11px;
+        justify-content: space-around;
+        width: 80px;
+        height: 50px;
+    }
+    .social_twitter{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_instagram{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_facebook{
+        color: #f9b701;
+        align-items: center;
+    }
+    
+    .social_youtube{
+        color: #f9b701;
+        align-items: center;
+    }
+}
+
